@@ -5,13 +5,29 @@
   <p align="center">Supvote is crowd upvote bot</p>
 </p>
 
-## Run with Poetry
+## Installation
+
+1. Rename `praw.example.ini` to `praw.ini` and add crowds upvote bots in `praw.ini`
+2. Install dependencies
+
+#### With Poetry
+```bash
+poetry install
+```
+
+#### With Pip
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the bot
+#### With Poetry
 
 ```bash
 poetry run start <submission_url>
 ```
 
-## Run with regular Python
+#### With regular Python
 
 ```bash
 python main.py <submission_url>
