@@ -13,7 +13,7 @@ start = "main:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-praw = "^7.4.0"
+praw = "^8.0.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^21.9b0", allow-prereleases = true}
